@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Teko';
+}
+
+#home{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: #001d28;
+}
+
+#homeIcon{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 10vh;
+}
+
+/**/
+
+#game-container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: #001d28;
+  background-image: url('Assets/background.svg'),linear-gradient(#001d28, #001d28) ,url('Assets/background-ani.svg');
+  background-position: 0 5vh;
+}
+
+#catImg{
+  height: 100px;
+  position: absolute;
+  bottom: 10vh;
+  left: 50px;
+}
+#cat{
+  height: 100px;
+  position: relative;
+  bottom: 0;
+}
+.bgImg{
+  position: absolute;
+  height: 35vh;
+  bottom: 0;
+}
+
+#bg2 {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  left: calc(35vh * 7.26);
+}
+
+.obstacleDiv{
+  position: absolute;
+  bottom: 10vh;
+  right: -50px;
+  display: flex;
+  padding: 10px;
+}
+.obstacleImg{
+  position: absolute;
+  right: 0;
+}
+.tall {
+  height: 150px;
+}
+.med {
+  height: 110px;
+}
+.short {
+  height: 80px;
+}
+#score {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 32px;
+  padding: 0.2em;
+  padding-top: 0.3em;
+  background-color: black;
+  border: 4px solid white;
+  color: white;
+  width: 400px;
+  display: flex;
+}
+
+/**/
+
+#game-over{
+  height: 50vh;
+  width: 50vw;
+  z-index: 1;
+  position: fixed;
+  top: 20vh;
+  left: 25vw;
+  background-color: #dcf5ff;
+  color: black;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  font-size: 54px;
+}
+
+#restart{
+  font: inherit;
+  font-size: 44px;
+}
+
+p{
+  margin: 0;
+}
+
+.header{
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}

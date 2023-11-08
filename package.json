@@ -1,0 +1,15 @@
+{
+  "name": "cat-runner",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite serve ./src",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "vite": "^4.4.5"
+  }
+}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="Assets/Cat/1.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cat Runner</title>
+  </head>
+  <body>
+    <div id="home">
+       
+    </div>
+    <div id="game-container" style="display: block">
+      <div id="score">Highest: undefined | Score: 0</div>
+      <div id="catImg"><img id="cat" src="Assets/Cat/1.svg"/></div>
+
+      <div id="1" class="obstacleDiv tall" style="right: -50px; bottom: 5vh; width: 155px;"><img class="obstacleImg tall" style="right: -15px;" src="Assets/Obstacles/big.svg"></div>
+      <div id="2" class="obstacleDiv tall" style="right: -700px; width: 120px;"><img class="obstacleImg tall" src="Assets/Obstacles/square.svg"></div>
+      <div id="3" class="obstacleDiv tall" style="right: -1500px; width: 98.5px;"><img class="obstacleImg tall" src="Assets/Obstacles/med.svg"></div>
+      <div id="4" class="obstacleDiv med" style="right: -2000px; width: 85px;"><img class="obstacleImg med" src="Assets/Obstacles/glitter.svg"></div>
+      <div id="5" class="obstacleDiv med" style="right: -3000px; width: 68px;"><img class="obstacleImg med" src="Assets/Obstacles/med.svg"></div>
+      <div id="6" class="obstacleDiv med" style="right: -3500px; width: 85px;"><img class="obstacleImg med" src="Assets/Obstacles/square.svg"></div>
+      <div id="7" class="obstacleDiv short" style="right: -4100px; width: 93px;"><img class="obstacleImg short" src="Assets/Obstacles/big.svg"></div>
+      <div id="8" class="obstacleDiv short" style="right: -4600px; width:43px;"><img class="obstacleImg short" src="Assets/Obstacles/med.svg"></div>
+      <div id="9" class="obstacleDiv short" style="right: -5000px; width: 60px;"><img class="obstacleImg short" src="Assets/Obstacles/square.svg"></div>
+
+      <img class="bgImg" id="bg1" src="Assets/bg.svg"/>
+      <img class="bgImg" id="bg2" src="Assets/bg.svg"/>
+    </div>
+    <div id="game-over">
+      <div id = "homeDiv"><img src="Assets/home.svg" id="homeIcon"></div>
+      <p style="font-size: 0.8em;">Highest: NaN</p>
+      <p style="font-size: 1.8em;">GAME OVER!</p>
+      <p id="finalScore"></p>
+      <button id="restart">Restart</button>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
